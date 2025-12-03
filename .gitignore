@@ -9,3 +9,4 @@ ML_proj/test_results_final/
 ML_proj/test_tmp/
 ML_proj/submission.csv
 ML_proj/fft_grid_removed_output/
+.DS_Store
