@@ -17,7 +17,8 @@ A detailed explanation of the methodology, model architectures, and experimental
 |-|-|-|
 
 ## How To Run
-1. Choose your pipeline to run.
+### Pipeline 1
+1. Open '1st_pipeline.ipynb'.
 2. Execute the notebook.
 
 ## References
