@@ -1,0 +1,11 @@
+ML_proj/fft_grid_removed_output/
+ML_proj/kmeans_output_v3/
+ML_proj/venv/
+ML_proj/ecg_images_cache.pkl
+ML_proj/dataset/images_aligned/
+ML_proj/dataset/masks/
+ML_proj/dataset/masks_v2/
+ML_proj/test_results_final/
+ML_proj/test_tmp/
+ML_proj/submission.csv
+ML_proj/fft_grid_removed_output/
