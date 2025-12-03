@@ -31,6 +31,10 @@ A detailed explanation of the methodology, model architectures, and experimental
 7. if you want to compare original mask and inferred result, run `evaluate/visualize.py`.
 8. `/checkpoints/unet_ecg_epoch_*.pth` is pretrained parameters
 
+
+### Pipeline 3
+Please refer to `physionet/README.md`.
+
 ## References
 - https://moody-challenge.physionet.org/2024/
 - https://www.kaggle.com/code/ambrosm/ecg-original-explained-baseline
