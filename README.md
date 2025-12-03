@@ -29,6 +29,7 @@ A detailed explanation of the methodology, model architectures, and experimental
 5. run `train/train_v3.py` - it will train U-Net model with real dataset and synthetic dataset(data augmentation)
 6. if training done, run `evaluate/eval_v2.py` so you can see overall SNR score using test data.
 7. if you want to compare original mask and inferred result, run `evaluate/visualize.py`.
+8. `/checkpoints/unet_ecg_epoch_*.pth` is pretrained parameters
 
 ## References
 - https://moody-challenge.physionet.org/2024/
