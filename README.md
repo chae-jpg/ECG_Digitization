@@ -21,6 +21,15 @@ A detailed explanation of the methodology, model architectures, and experimental
 1. Open `1st_pipeline.ipynb`.
 2. Execute the notebook.
 
+### Pipline 2
+1. change directory to ML_proj
+2. activate virtual env and install library using requirements.txt
+3. run `preprocess_clustering/clustering_v3.py ` - it will execute black-hat filtering and adaptive thresholding so image can be splitted into brackground(0) and waveform object.
+4. run `dataset/dataset_v3.py` - it will execute rotation and paper detection so you can match training data size with mask data.
+5. run `train/train_v3.py` - it will train U-Net model with real dataset and synthetic dataset(data augmentation)
+6. if training done, run `evaluate/eval_v2.py` so you can see overall SNR score using test data.
+7. if you want to compare original mask and inferred result, run `evaluate/visualize.py`.
+
 ## References
 - https://moody-challenge.physionet.org/2024/
 - https://www.kaggle.com/code/ambrosm/ecg-original-explained-baseline
